@@ -1,35 +1,73 @@
 # Instahyre Job Market Analysis
 
-This repository contains an in-depth analysis of job postings and employment opportunities on the website Instahyre.com, focusing on the mid-May 2023 timeframe. The analysis provides insights into the job market trends, industry distribution, company preferences, and more, based on data collected from over 650 job postings and information on more than 200 companies.
+<p align="center">
+  <img src="https://github.com/divyechopra/Instahyre-Job-Analytics/assets/122443219/4d12f489-95e8-48a9-a6fc-4fabdc60c6cd" alt="WhatsApp Video 2023-07-24 at 10 15 43 AM">
+</p>
 
-## Overview
+## Project Description
 
-Instahyre is a renowned professional opportunity and job listings platform that hosts a dynamic website for job postings from various companies. To perform this analysis, we utilized Python3 along with Selenium and BeautifulSoup4 libraries for web scraping. The scraped data was organized into a structured format using the pandas DataFrame. The dataset comprises critical information such as job ID, designation, company details, required skills, and founding year.
+This repository presents an extensive analysis of job postings and employment opportunities on Instahyre.com during. 
+The analysis offers insights into job market trends, including industry distribution, geographical preferences, and company tendencies. 
+The project is based on data collected from over 650 job postings and details of more than 200 companies.
 
-## Methodology
+![Viz_5](https://github.com/harshahari8/Instahyre_Job_Analytics/assets/133602303/8c328f24-1282-4a9b-a822-fcbcc2e8811b)
 
-1. **Data Collection:** We employed web scraping techniques to collect job postings and company information from Instahyre's website. The data was fetched using JavaScript via Selenium, and then parsed using BeautifulSoup4.
 
-2. **Data Cleaning:** Once the data was scraped, it underwent thorough cleaning processes using numpy and pandas libraries. This involved handling missing values, removing duplicates, and transforming data into a consistent format.
+## Problem Aimed to Solve
 
-3. **Exploratory Analysis:** The cleaned data was divided into three main tables: Jobs, Companies, and Job Details. Primary keys were generated for Jobs and Companies to establish relationships between these tables.
+The project addresses the need for understanding the dynamic job market landscape by utilizing data-driven analysis. By exploring trends and patterns within job postings, the project aims to provide valuable insights that can aid job seekers, companies, and policy makers in making informed decisions.
 
-4. **Data Insights:** Utilizing pandas, we conducted exploratory analysis to gain insights into the dataset. The tables were linked based on primary keys, enabling deeper understanding of relationships between job postings, companies, and job details.
+## Data Description
+- **Dashboard & Tables**: Contains an Excel file for analysis and insights visualization. Additionally, this file also contains the structured tables generated through web scraping job data and establishing primary keys. The tables capture key details such as job attributes, company information, and more, all organized for systematic exploration.
 
-5. **Export and Visualization:** The resulting tables were exported into comma-separated value files (CSV) for further analysis and visualization using tools like Microsoft Excel.
+- **Jupyter Notebook Files**: The collection of Jupyter notebook files within the repository reflects the various stages of the analysis process. The web scraping process is documented in one of the notebooks, providing transparency into data collection techniques using tools like Beautiful Soup and Selenium. Furthermore, an initial exploratory data analysis (EDA) is presented using the power of numpy and pandas, highlighting trends, patterns, and data cleansing processes.
 
-6. **Aggregations and Visualizations:** Aggregations were performed to analyze the job market across various parameters. These included job distribution across different cities, industries, company sizes, locations, and experience levels. The findings were translated into visualizations, which were consolidated into an Excel dashboard.
+- **Presentation**: The repository features a PowerPoint presentation file containing insights and visualizations derived from the analysis. This presentation distills the key findings and trends discovered during the project, offering an easily accessible overview for stakeholders seeking to grasp the project's impact at a glance
 
-7. **Key Findings and Presentation:** A presentation was created to highlight crucial visualizations, metrics, and insights derived from the data. Key findings included a concentration of job openings in Bengaluru, dominance of the Information & Technology (IT) industry, and employment opportunities for younger and less experienced job seekers.
+## Scraping and Preprocessing
 
-## Files
+Data collection involved web scraping using Python, leveraging the Selenium and BeautifulSoup4 libraries. These tools facilitated the extraction of job postings and company data from Instahyre's dynamic website. Subsequent preprocessing procedures addressed missing data, ensured data consistency, and eliminated duplicates. The structured data was then organized into a pandas DataFrame.
 
-- `web_scraping.py`: Python script for web scraping using Selenium and BeautifulSoup4.
-- `data_cleaning.ipynb`: Jupyter notebook containing the data cleaning process.
-- `data_analysis.ipynb`: Jupyter notebook showcasing data exploration and insights.
-- `data_visualization.xlsx`: Excel file with visualizations and the dashboard.
-- `presentation.pdf`: Presentation summarizing the analysis results and key insights.
+Using Selenium to automate the Chrome Browser:
 
-## Conclusion
+![Webscraping_1](https://github.com/harshahari8/Instahyre_Job_Analytics/assets/133602303/224f5cc2-2d88-456e-9fb1-b9824e282781)
 
-The analysis of Instahyre's job postings provides valuable insights into the current job market. The data reveals the dominance of the IT industry and the strong influence of Bengaluru in terms of job opportunities. This repository encapsulates the entire process of data collection, cleaning, analysis, and visualization, shedding light on key trends that define the job landscape during mid-May 2023.
+Using Selenium and BeautifulSoup to extract the data using HTML Classes:
+
+![Webscraping_2](https://github.com/harshahari8/Instahyre_Job_Analytics/assets/133602303/09721e73-77ba-4f5b-9c9f-8f8dd807a64e)
+
+## Exploratory Data Analysis
+
+The exploratory data analysis phase encompassed the segmentation of data into distinct tables: Jobs, Companies, and Job Details. Relationships between these tables were established using primary keys. Utilizing pandas, the analysis delved into these relationships, yielding insights into job postings, companies, and associated attributes.
+
+Initial aggregations on the data collected:
+![EDA_1](https://github.com/harshahari8/Instahyre_Job_Analytics/assets/133602303/f8513b7c-2c41-4050-a69c-d16837023f24)
+
+Generating primary keys and creating three linked tables:
+![EDA_2](https://github.com/harshahari8/Instahyre_Job_Analytics/assets/133602303/d6c2b512-eb7c-4496-b89f-40272193b38c)
+
+
+## Visualizations
+
+Visualizations played a pivotal role in communicating analysis findings. Aggregations provided insights into various job market aspects, including city-wise job distribution, industry segments, company sizes, locations, and experience level preferences. These visualizations were consolidated into an Excel dashboard, enhancing the presentation of key insights.
+
+A visualization to show the spread of roles in major cities based on years of experience required:
+![Viz_3](https://github.com/harshahari8/Instahyre_Job_Analytics/assets/133602303/e57de352-d5dc-4af8-a906-b34a68e48cf4)
+
+A dashboard summarising key insights:
+![Viz_1](https://github.com/harshahari8/Instahyre_Job_Analytics/assets/133602303/63e35d86-4028-455d-9268-b1cf1d88176e)
+
+
+## Learning, Limitations and Challenges Faced
+
+In the pursuit of completing this project, several learning opportunities and challenges were encountered:
+
+- **Learning New Tools:** We acquired proficiency in utilizing tools such as Beautiful Soup and Selenium for web scraping. These skills enabled us to extract and analyze job market data from Instahyre's platform effectively.
+
+- **Data Quality and Biases:** It's important to acknowledge that the accuracy of our analysis is inherently tied to the quality of the scraped data. The presence of biases within the collected data could impact the insights drawn from our analysis.
+
+- **Web Scraping Constraints:** The constraints posed by web scraping, including limitations imposed by the website's structure and the information collected by the company, influenced the scope of data that we were able to collect and analyze.
+
+- **Data Volume Impact:** While the insights we present here are valuable, it's essential to recognize that a larger dataset would likely yield more accurate and comprehensive results. A more extensive dataset would provide a broader perspective on industry trends.
+
+Despite these challenges, this project serves as a testament to our commitment to continuous learning and the extraction of insights from complex datasets. The outcomes of this analysis hold potential not only for our immediate findings but also for guiding recruiters and job seekers in navigating the intricate landscape of employment opportunities.
