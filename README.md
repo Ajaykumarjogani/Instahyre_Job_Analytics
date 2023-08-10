@@ -71,3 +71,11 @@ In the pursuit of completing this project, several learning opportunities and ch
 - **Data Volume Impact:** While the insights we present here are valuable, it's essential to recognize that a larger dataset would likely yield more accurate and comprehensive results. A more extensive dataset would provide a broader perspective on industry trends.
 
 Despite these challenges, this project serves as a testament to our commitment to continuous learning and the extraction of insights from complex datasets. The outcomes of this analysis hold potential not only for our immediate findings but also for guiding recruiters and job seekers in navigating the intricate landscape of employment opportunities.
+
+## Libraries Used
+- selenium
+- beautifulsoup
+- numpy
+- pandas
+- matplotlib
+- seaborn
