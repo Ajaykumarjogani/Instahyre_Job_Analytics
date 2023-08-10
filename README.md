@@ -54,7 +54,7 @@ Visualizations played a pivotal role in communicating analysis findings. Aggrega
 A visualization to show the spread of roles in major cities based on years of experience required:
 ![Viz_3](https://github.com/harshahari8/Instahyre_Job_Analytics/assets/133602303/e57de352-d5dc-4af8-a906-b34a68e48cf4)
 
-A dashboard summarising key insights:
+A dashboard summarizing key insights:
 ![Viz_1](https://github.com/harshahari8/Instahyre_Job_Analytics/assets/133602303/63e35d86-4028-455d-9268-b1cf1d88176e)
 
 
