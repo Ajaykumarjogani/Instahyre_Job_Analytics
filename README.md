@@ -28,11 +28,11 @@ The project addresses the need for understanding the dynamic job market landscap
 
 Data collection involved web scraping using Python, leveraging the Selenium and BeautifulSoup4 libraries. These tools facilitated the extraction of job postings and company data from Instahyre's dynamic website. Subsequent preprocessing procedures addressed missing data, ensured data consistency, and eliminated duplicates. The structured data was then organized into a pandas DataFrame.
 
-Using Selenium to automate the Chrome Browser:
+#### Using Selenium to automate the Chrome Browser:
 
 ![Webscraping_1](https://github.com/harshahari8/Instahyre_Job_Analytics/assets/133602303/224f5cc2-2d88-456e-9fb1-b9824e282781)
 
-Using Selenium and BeautifulSoup to extract the data using HTML Classes:
+#### Using Selenium and BeautifulSoup to extract the data using HTML Classes:
 
 ![Webscraping_2](https://github.com/harshahari8/Instahyre_Job_Analytics/assets/133602303/09721e73-77ba-4f5b-9c9f-8f8dd807a64e)
 
@@ -40,10 +40,10 @@ Using Selenium and BeautifulSoup to extract the data using HTML Classes:
 
 The exploratory data analysis phase encompassed the segmentation of data into distinct tables: Jobs, Companies, and Job Details. Relationships between these tables were established using primary keys. Utilizing pandas, the analysis delved into these relationships, yielding insights into job postings, companies, and associated attributes.
 
-Initial aggregations on the data collected:
+#### Initial aggregations on the data collected:
 ![EDA_1](https://github.com/harshahari8/Instahyre_Job_Analytics/assets/133602303/f8513b7c-2c41-4050-a69c-d16837023f24)
 
-Generating primary keys and creating three linked tables:
+#### Generating primary keys and creating three linked tables:
 ![EDA_2](https://github.com/harshahari8/Instahyre_Job_Analytics/assets/133602303/d6c2b512-eb7c-4496-b89f-40272193b38c)
 
 
@@ -51,10 +51,10 @@ Generating primary keys and creating three linked tables:
 
 Visualizations played a pivotal role in communicating analysis findings. Aggregations provided insights into various job market aspects, including city-wise job distribution, industry segments, company sizes, locations, and experience level preferences. These visualizations were consolidated into an Excel dashboard, enhancing the presentation of key insights.
 
-A visualization to show the spread of roles in major cities based on years of experience required:
+#### A visualization to show the spread of roles in major cities based on years of experience required:
 ![Viz_3](https://github.com/harshahari8/Instahyre_Job_Analytics/assets/133602303/e57de352-d5dc-4af8-a906-b34a68e48cf4)
 
-A dashboard summarizing key insights:
+#### A dashboard summarizing key insights:
 ![Viz_1](https://github.com/harshahari8/Instahyre_Job_Analytics/assets/133602303/63e35d86-4028-455d-9268-b1cf1d88176e)
 
 
