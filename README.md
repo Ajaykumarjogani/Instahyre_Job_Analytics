@@ -18,7 +18,7 @@ The project is based on data collected from over 650 job postings and details of
 The project addresses the need for understanding the dynamic job market landscape by utilizing data-driven analysis. By exploring trends and patterns within job postings, the project aims to provide valuable insights that can aid job seekers, companies, and policy makers in making informed decisions.
 
 ## Data Description
-- **Dashboard & Tables**: Contains an Excel file for analysis and insights visualization. Additionally, this file also contains the structured tables generated through web scraping job data and establishing primary keys. The tables capture key details such as job attributes, company information, and more, all organized for systematic exploration.
+- **Tables & Dashboards**: Contains an Excel file for analysis and insights visualization. Additionally, this file also contains the structured tables generated through web scraping job data and establishing primary keys. The tables capture key details such as job attributes, company information, and more, all organized for systematic exploration.
 
 - **Jupyter Notebook Files**: The collection of Jupyter notebook files within the repository reflects the various stages of the analysis process. The web scraping process is documented in one of the notebooks, providing transparency into data collection techniques using tools like Beautiful Soup and Selenium. Furthermore, an initial exploratory data analysis (EDA) is presented using the power of numpy and pandas, highlighting trends, patterns, and data cleansing processes.
 
